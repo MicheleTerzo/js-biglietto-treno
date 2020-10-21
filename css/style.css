@@ -1,51 +1,44 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
 body{
-    background: url("../img/hero-bg.jpg");
-    background-size: cover;
+    background-color: blue;
+    color: blue;
 }
-header div{
-    background-color: white;
-    text-align: right;
-    border-bottom: 2px solid black;
-}
+/* ---- debug ---- */
+/* .container, .row, div[class*="col"]{
+    border: 1px solid black;
+} */
+/* ---- debug ---- */
 .container{
-    position: relative;
-    background-color: #e71831;
-    box-shadow: 5px 5px 5px;
-    padding-left: 10px;
-    border: 2px outset black;
+    background-color: white;
     border-radius: 10px;
-    width: 600px;
-    height: 300px;
-    margin: 20px 20px;
+    padding: 30px;
+    margin-bottom: 50px;
 }
-#dis, #eta{
+.buttonContainer{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.buttonContainer button{
+    margin: 0 20px;
+}
+h1{
     color: white;
+    text-align: center;
+    margin-bottom: 20px;
+
 }
-.container h3{
-    margin-top: 5px;
-    display: inline-block;
+.col{
+    text-align: center;
+    height: 80px;
 }
-.price{
-    margin-top: 20px;
+#displayToggle{
+    visibility: hidden;
     
 }
-.price div{
-    color: #086b63;
-    margin-top: 5px;
-    padding: 10px;
-    background-color: #fff;
-    width: 80%;
-    height: 40px;
-    line-height: 25px;
-    border-radius: 10px;
+.brdbottom{
+    border-bottom: 1px solid black;
 }
-.info{
-    color: #fff;
-    margin-top: 40px;
-    text-align: center;
+.brdtop{
+    border-top: 1px solid black;
 }
